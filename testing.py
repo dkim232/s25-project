@@ -5,6 +5,8 @@ with open("mlb.json") as file:
 
 
 for game in data:
+    if game['away_team'] != "Los Angeles Angels":
+        continue
     print(f"\nGame: {game['away_team']} at {game['home_team']}")
     print(f"Start time: {game['commence_time']}")
 
@@ -14,11 +16,11 @@ for game in data:
         for market in bookmaker["markets"]:
             if market['key'] != "h2h":
                 continue
-            
-            print(f"    Market: {market['key']}")
+
+            print(f"        Market: {market['key']}")
             
             for outcome in market["outcomes"]:
                 team = outcome["name"]
                 price = outcome["price"]
-                point = outcome.get("point", "N/A")  # use .get() to handle missing "point"
-                print(f"      {team} | Price: {price} | Point: {point}")
+                #point = outcome.get("point", "N/A")
+                print(f"            {team} | Price: {price}")
