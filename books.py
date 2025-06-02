@@ -6,7 +6,7 @@ import json
 # Get a free API key at https://api.the-odds-api.com/
 API_KEY = '80b4e1aa331f8c712346f6009a7c5080'
 
-SPORT = 'basketball_nba' # use the sport_key from the /sports endpoint below, or use 'upcoming' to see the next 8 games across all sports
+SPORT = 'baseball_mlb' # use the sport_key from the /sports endpoint below, or use 'upcoming' to see the next 8 games across all sports
 
 REGIONS = 'us' # uk | us | eu | au. Multiple can be specified if comma delimited
 
@@ -27,8 +27,6 @@ sports_response = requests.get(
     'https://api.the-odds-api.com/v4/sports', 
     params={
         "api_key": API_KEY,
-        "sport_key": "basketball_nba",
-        "sport_title": "NBA"
     }
 )
 
@@ -50,6 +48,7 @@ if sports_response.status_code != 200:
 #
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 
+
 odds_response = requests.get(
     f'https://api.the-odds-api.com/v4/sports/{SPORT}/odds',
     params={
@@ -68,7 +67,7 @@ else:
     odds_json = odds_response.json()
     print('Number of events:', len(odds_json))
     print(odds_json)
-    with open("nbafinals.json", "w") as file:
+    with open("mlb.json", "w") as file:
         json.dump(odds_json, file, indent=4)
 
     # Check the usage quota
