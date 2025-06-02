@@ -1,3 +1,3 @@
-# s25-project
+# Sports Betting Arbitrage
 
-update readme
+title
