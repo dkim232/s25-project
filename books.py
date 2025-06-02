@@ -1,4 +1,5 @@
 import requests
+import json
 
 
 # An api key is emailed to you when you sign up to a plan
@@ -67,6 +68,8 @@ else:
     odds_json = odds_response.json()
     print('Number of events:', len(odds_json))
     print(odds_json)
+    with open("nbafinals.json", "w") as file:
+        json.dump(odds_json, file, indent=4)
 
     # Check the usage quota
     print('Remaining requests', odds_response.headers['x-requests-remaining'])

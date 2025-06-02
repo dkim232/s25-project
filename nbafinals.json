@@ -1,0 +1,234 @@
+[
+    {
+        "id": "c551e57315cc318feea2aea6a316457b",
+        "sport_key": "basketball_nba",
+        "sport_title": "NBA",
+        "commence_time": "2025-06-06T00:30:00Z",
+        "home_team": "Oklahoma City Thunder",
+        "away_team": "Indiana Pacers",
+        "bookmakers": [
+            {
+                "key": "fanduel",
+                "title": "FanDuel",
+                "last_update": "2025-06-02T01:08:47Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:08:47Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.15
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.25
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:08:47Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.89,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.93,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "draftkings",
+                "title": "DraftKings",
+                "last_update": "2025-06-02T01:10:22Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:10:22Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.3
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.24
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:10:22Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.87,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.95,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "bovada",
+                "title": "Bovada",
+                "last_update": "2025-06-02T01:10:03Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:10:03Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.1
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.24
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:10:03Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.87,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.95,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "lowvig",
+                "title": "LowVig.ag",
+                "last_update": "2025-06-02T01:10:32Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:10:32Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.25
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.25
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:10:32Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.91,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.98,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betonlineag",
+                "title": "BetOnline.ag",
+                "last_update": "2025-06-02T01:09:58Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:09:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.2
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.25
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:09:58Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.87,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.95,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "betrivers",
+                "title": "BetRivers",
+                "last_update": "2025-06-02T01:10:00Z",
+                "markets": [
+                    {
+                        "key": "h2h",
+                        "last_update": "2025-06-02T01:10:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 4.0
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.26
+                            }
+                        ]
+                    },
+                    {
+                        "key": "spreads",
+                        "last_update": "2025-06-02T01:10:00Z",
+                        "outcomes": [
+                            {
+                                "name": "Indiana Pacers",
+                                "price": 1.88,
+                                "point": 9.5
+                            },
+                            {
+                                "name": "Oklahoma City Thunder",
+                                "price": 1.93,
+                                "point": -9.5
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]
