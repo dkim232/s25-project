@@ -1,3 +1,3 @@
 # Sports Betting Arbitrage
 
-title
+Currently looking at MLB Data using the_odds API. Feel free to take a look!
