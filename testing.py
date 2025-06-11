@@ -5,8 +5,6 @@ with open("mlb.json") as file:
 
 
 for game in data:
-    if game['away_team'] != "Los Angeles Angels":
-        continue
     # print(f"\nGame: {game['away_team']} at {game['home_team']}")
     # print(f"Start time: {game['commence_time']}")
 
@@ -42,14 +40,14 @@ for game in data:
 
         if imp_sum < 1:
             profit = (1 - imp_sum) * 100
-            print("Arbitrage Opportunity Found!\n")
+            print("Arbitrage Opportunity Found:")
             # print(f"Best Odds: {team1} @ {odds1}, {team2} @ {odds2}")
             # print(f"Sum of implied probability: {imp_sum:.4f}")
             # print(f"Profit Margin: {profit:.2f}%")
             print(f"""Place bet on {game['away_team']} at {game['home_team']} on {best_odds[team1]["date"]}
             Bet on {team1} at {best_odds[team1]['bookmaker']}
             Bet on {team2} at {best_odds[team2]['bookmaker']} 
-            Guaranteed profit of {profit:.2f}%!""")
+            Guaranteed profit of {profit:.2f}%!\n""")
 
-        else:
-            print("\nNo more arbitrage opportunities found.")
+        # else:
+        #     print("\nNo more arbitrage opportunities found.")
